@@ -1,0 +1,2 @@
+strona z profilem konta gdzie mozna zmienić hasło, maila, itp
+wylogowywanie się z sesji

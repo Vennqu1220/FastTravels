@@ -1,0 +1,284 @@
+::-webkit-scrollbar-track {
+  background: #000;
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	overflow-x: hidden;
+}
+.mainview{
+	background: linear-gradient(rgba(0,0,0,0.55),rgba(0,0,0,0.55)), url("favicon/mainbackground.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100vw;
+	height: 100vh;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+/*strona główna*/
+.logo{
+	width: 75px;
+	margin: 10px 10px;
+}
+.navbar{
+	height: 10%;
+	display: flex;
+	align-items: center;
+	position: sticky;
+	background: rgba(0,0,0,.3);
+	padding-right: 3%;
+}
+.navbar nav{
+	position: sticky;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left:  3%;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #F4EBD0;
+	font-size: 18px;
+	transition: ease 0.15s;
+}
+nav ul li a:hover{
+	color: white;
+	transition: ease 0.15s;
+}
+.login{
+	text-decoration: none;
+	color: #F4EBD0;
+	font-size: 18px;
+	margin-left:3%;
+}
+.fronttext{
+	width: 40vw;
+	padding-top: 200px;
+	padding-left: 10%;
+}
+.fronttext h1{
+	color: #F4EBD0;
+	font-size: 110px;
+	margin-bottom: 15px;
+}
+.fronttext p{
+	color: #F4EBD0;
+	margin-left: 35px;
+	font-size: 110%;
+}
+.frontbtn{
+	margin: 20px 10px 10px 35px;
+	padding: 10px;
+	background-color: #F4EBD0;
+	border: none;
+	border-radius: 30px;
+	width: 200px;
+	height: 45px;
+	transition: ease 0.15s;
+}
+.frontbtn:hover{
+	box-shadow: 0px 0px 10px #777;
+	transition: ease 0.15s;
+	cursor: pointer;
+}
+.loginbtn a{
+	text-decoration: none;
+	color: #F4EBD0;
+	font-size: 18px;
+	transition: ease 0.15s;
+}
+.loginbtn a:hover{
+	color: white;
+	transition: ease 0.15s;
+}
+.logoutbtndiv{
+	text-align: center;
+	align-items: center;
+	padding-left: 15+px;
+	transition: ease 0.15s;
+	font-size: 18px;
+}
+.logoutbtndiv a{
+	text-decoration: none;
+	color: #F4EBD0;
+}
+.logoutbtndiv a:hover{
+	color: #FFF;
+	transition: ease 0.15s;
+}
+/*main content strony głównej*/
+main{
+	display: block;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #F4EBD0;
+	text-align: center;
+}
+main h2{
+	margin: 0 auto;
+	padding-top: 72px;
+	padding-bottom: 72px;
+	width: 50%;
+	font-weight: 700;
+	font-size: 36pt;
+	color: #122620;
+}
+.plates{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 10% ;
+}
+.plate{
+	float: left;
+	width: 20vw;
+	height: 25vw;
+	background-color: #FFFFF0;
+	border-radius: 20px;
+}
+.plate img{
+	width: 100%;
+}
+.plate h3{
+	font-weight: 300;
+	font-size: 250%;
+	color: #122620;
+	margin-top: 5%;
+}
+.plate p{
+	font-weight: 100;
+	color: #B68D40;
+	font-size: 120%;
+	margin-top: 10px;
+}
+#bookingbtn{
+	width: 80%;
+	height: 50px;
+	border: none;
+	border-radius: 20px;
+	margin-top: 60px;
+	font-size: 150%;
+	background-color: #FFFFF0;
+	transition: ease .1s;
+}
+#bookingbtn:hover{
+	cursor: pointer;
+	transition: ease .1s;
+	box-shadow: 0px 0px 10px #FFFFF0;
+}
+/*footer stopka*/
+footer{
+	width: 100vw;
+	height: 30vh;
+	background-color: #181818;
+}
+.info{
+	width: 25vw;
+	height: 100%;
+	float: left;
+}
+.info p{
+	color: #D6AD60;
+	padding: 20px;
+	font-size: 130%;
+}
+.info ul li{
+	color: #FFFFF0;
+	padding: 10px;
+	padding-left: 20px;
+}
+
+
+/* Strona rejestracja i logowanie */
+
+
+.register_content{
+	width: 40vw;
+	height: 70vh;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: rgba(0, 0, 0, .2);
+	backdrop-filter: blur(3px);
+	border-radius: 50px;
+	margin-top: 5%;
+}
+.register_content h1{
+	color: #122620;
+	font-size: 50px;
+	margin-left: 220px; 
+	padding-top: 10px;
+}
+.form_register{
+	margin: 100px 150px 150px 150px;
+}
+.form_register label{
+	font-size: 24px;
+}
+.form_register p{
+	font-size: 19px;
+	margin: 0px 0px 0px 20px;
+}
+.form_register a:hover{
+	color: #C79E51;
+}
+.form_register a{
+	color: #B68D40;
+	text-decoration: none;
+}
+.logintext{
+	margin: 5px 5px 5px 0px;
+	padding: 10px;
+	width: 200px;
+	background-color: rgba(38, 38, 32, .75);
+	border-radius: 8px;
+	border: none;
+	box-shadow: none;
+	transition: ease 0.15s;
+	color: #fff;
+}
+.logintext:focus{
+	border: none;
+	width: 300px;
+	transition: ease 0.15s;
+	box-shadow: 0px 0px 10px #777;
+}
+.logintext:hover{
+	box-shadow: 0px 0px 10px #777;
+}
+.submitbtn{
+	border: none;
+	background-color: #B68D40;
+	border-radius: 10px;
+	width: 100px;
+	height: 35px;
+	color: white;
+	transition: ease 0.15s;
+}
+.submitbtn:hover{	
+	box-shadow: 0px 0px 10px #777;
+	transition: ease 0.15s;
+	cursor: pointer;
+}
+.profilereview{
+	width: 80vw;
+	height: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F4EBD0;
+	border-radius: 50px;
+	margin-top: 0px;
+}
+.profilereview h1{
+	color: #122620;
+	font-size: 50px;
+	margin-left: 220px; 
+	padding-top: 10px;
+}
